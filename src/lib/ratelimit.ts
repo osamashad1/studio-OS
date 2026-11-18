@@ -4,9 +4,31 @@ import { Redis } from "@upstash/redis";
 
 type Window = `${number} ${"s" | "m" | "h"}`;
 
-const hasUpstash = !!(process.env.UPSTASH_REDIS_REST_URL && process.env.UPSTASH_REDIS_REST_TOKEN);
+/** Removes quotes/spaces people often paste with keys; adds https:// if missing. */
+const clean = (v?: string) => v?.trim().replace(/^["']|["']$/g, "").trim() || undefined;
 
-// Local fallback (only for development): counts in memory, resets on restart.
+let redis: Redis | null | undefined; // undefined = not tried yet, null = not available
+
+/**
+ * Upstash Redis client, created lazily on first use (never at build time) and
+ * never throwing: an invalid URL/token logs a warning and falls back to memory.
+ */
+function getRedis(): Redis | null {
+  if (redis !== undefined) return redis;
+  const rawUrl = clean(process.env.UPSTASH_REDIS_REST_URL);
+  const token = clean(process.env.UPSTASH_REDIS_REST_TOKEN);
+  if (!rawUrl || !token) return (redis = null);
+  try {
+    const url = new URL(/^https?:\/\//.test(rawUrl) ? rawUrl : `https://${rawUrl}`).origin;
+    redis = new Redis({ url, token });
+  } catch (err) {
+    console.warn("[ratelimit] UPSTASH_REDIS_REST_URL/TOKEN invalid — using in-memory limit.", err);
+    redis = null;
+  }
+  return redis;
+}
+
+// Local fallback: counts in memory (per server instance), resets on restart.
 const memory = new Map<string, { count: number; reset: number }>();
 const toMs = (w: Window) => {
   const [n, unit] = w.split(" ");
@@ -18,12 +40,21 @@ const toMs = (w: Window) => {
  * Uses Upstash Redis when configured — serverless servers don't share memory.
  */
 export function createLimiter(prefix: string, limit: number, window: Window) {
-  const upstash = hasUpstash
-    ? new Ratelimit({ redis: Redis.fromEnv(), limiter: Ratelimit.slidingWindow(limit, window), prefix })
-    : null;
+  let upstash: Ratelimit | null | undefined;
 
   return async function check(id: string): Promise<boolean> {
-    if (upstash) return (await upstash.limit(id)).success;
+    if (upstash === undefined) {
+      const r = getRedis();
+      upstash = r ? new Ratelimit({ redis: r, limiter: Ratelimit.slidingWindow(limit, window), prefix }) : null;
+    }
+    if (upstash) {
+      try {
+        return (await upstash.limit(id)).success;
+      } catch (err) {
+        console.warn("[ratelimit] Upstash request failed — allowing request.", err);
+        return true; // never block real visitors because the limiter is down
+      }
+    }
     const now = Date.now();
     const key = `${prefix}:${id}`;
     const entry = memory.get(key);

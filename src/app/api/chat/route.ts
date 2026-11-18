@@ -18,7 +18,7 @@ const textOf = (m: UIMessage) =>
   m.parts.map((p) => (p.type === "text" ? p.text : "")).join("");
 
 export async function POST(req: Request) {
-  const apiKey = process.env.GEMINI_API_KEY;
+  const apiKey = process.env.GEMINI_API_KEY?.trim().replace(/^["']|["']$/g, "").trim();
   if (!apiKey) return Response.json({ error: "notConfigured" }, { status: 503 });
 
   if (!(await limiter(clientIp(req.headers)))) {

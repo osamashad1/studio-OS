@@ -19,9 +19,10 @@ export async function sendNotification({
   text: string;
   replyTo?: string;
 }) {
-  const key = process.env.RESEND_API_KEY;
-  const to = process.env.CONTACT_TO_EMAIL;
-  const from = process.env.CONTACT_FROM_EMAIL ?? "Website <onboarding@resend.dev>";
+  const clean = (v?: string) => v?.trim().replace(/^["']|["']$/g, "").trim() || undefined;
+  const key = clean(process.env.RESEND_API_KEY);
+  const to = clean(process.env.CONTACT_TO_EMAIL);
+  const from = clean(process.env.CONTACT_FROM_EMAIL) ?? "Website <onboarding@resend.dev>";
 
   if (!key || !to) {
     if (process.env.NODE_ENV !== "production") {
