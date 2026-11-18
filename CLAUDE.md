@@ -89,3 +89,4 @@ AI chatbots and automation. I take 1 new project per month (limited capacity).
   CTAs = "reserve". Portfolio previews = real demo screenshots in 3D ShowcaseCard (public/portfolio/demos/, regenerate after demo
   changes). New demo works: design (brand, social ads, UI/UX) + 2 Google Ads reports with EXAMPLE VALUES (src/content/ads-reports.ts).
 - 2026-11-18: Minimum subscription term changed to 6 months (site.ts subscription.minTermMonths). Headings no longer auto-hyphenate (only legal page titles do).
+- 2026-11-18: Project form also submits to Netlify Forms (public/__forms.html skeleton, form-name "project") so it works without RESEND_API_KEY; Resend email is sent in addition when configured. Form detection enabled in Netlify.

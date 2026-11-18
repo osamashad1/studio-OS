@@ -43,16 +43,38 @@ export function ProjectForm() {
 
   const onSubmit = async (data: ContactData) => {
     setStatus("sending");
-    try {
-      const res = await fetch("/api/contact", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ ...data, locale }),
-      });
-      setStatus(res.ok ? "success" : res.status === 429 ? "rateLimited" : "error");
-    } catch {
-      setStatus("error");
-    }
+    // 1) Netlify Forms — works without any API key; you get it by email from Netlify.
+    const netlify = fetch("/__forms.html", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: new URLSearchParams({
+        "form-name": "project",
+        name: data.name,
+        email: data.email,
+        business: t(`options.business.${data.business}`),
+        needs: data.needs.map((n) => t(`options.needs.${n}`)).join(", "),
+        budget: t(`options.budget.${data.budget}`),
+        start: t(`options.start.${data.start}`),
+        message: data.message,
+        privacy: "yes",
+        language: locale,
+        website: data.website ?? "",
+      }).toString(),
+    })
+      .then((r) => r.ok)
+      .catch(() => false);
+    // 2) Own API (Resend email) — only sends when RESEND_API_KEY is configured.
+    const api = fetch("/api/contact", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ ...data, locale }),
+    })
+      .then((r) => r.status)
+      .catch(() => 0);
+
+    const [savedByNetlify, apiStatus] = await Promise.all([netlify, api]);
+    if (savedByNetlify || apiStatus === 200) setStatus("success");
+    else setStatus(apiStatus === 429 ? "rateLimited" : "error");
   };
 
   if (status === "success") {

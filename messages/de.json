@@ -895,10 +895,10 @@
           ]
         },
         {
-          "title": "4. Projekt-Anfrageformular und E-Mail-Versand (Resend)",
+          "title": "4. Projekt-Anfrageformular (Netlify Forms, Resend)",
           "text": [
             "Wenn Sie das Anfrageformular nutzen, verarbeite ich Ihre Angaben (Name, E-Mail, Art des Unternehmens, gewünschte Leistungen, Budget, Startzeitpunkt, Nachricht), um Ihre Anfrage zu beantworten. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO (vorvertragliche Maßnahmen) bzw. lit. f DSGVO.",
-            "Für den Versand der Anfrage an mich nutze ich den Dienst Resend (Resend, Inc., USA). Die Übermittlung in die USA erfolgt auf Grundlage von Standardvertragsklauseln bzw. des EU-US Data Privacy Framework. <PRÜFEN: AVV MIT RESEND>",
+            "Die Anfrage wird über Netlify Forms (Netlify, Inc., USA) gespeichert und mir per E-Mail zugestellt; zusätzlich kann der Versand über Resend (Resend, Inc., USA) erfolgen. Die Übermittlung in die USA erfolgt auf Grundlage des EU-US Data Privacy Framework bzw. von Standardvertragsklauseln. <PRÜFEN: AVV MIT NETLIFY UND RESEND>",
             "Ihre Daten werden gelöscht, sobald sie für den Zweck nicht mehr erforderlich sind und keine gesetzlichen Aufbewahrungspflichten bestehen."
           ]
         },

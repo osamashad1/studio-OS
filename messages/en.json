@@ -895,10 +895,10 @@
           ]
         },
         {
-          "title": "4. Project request form and email delivery (Resend)",
+          "title": "4. Project request form (Netlify Forms, Resend)",
           "text": [
             "When you use the request form, I process your details (name, email, type of business, services needed, budget, start date, message) to answer your request. The legal basis is Art. 6(1)(b) GDPR (pre-contractual measures) or Art. 6(1)(f) GDPR.",
-            "To deliver the request to me I use Resend (Resend, Inc., USA). Transfers to the USA are based on standard contractual clauses or the EU-US Data Privacy Framework. <CHECK: DPA WITH RESEND>",
+            "The request is stored via Netlify Forms (Netlify, Inc., USA) and delivered to me by email; it may additionally be sent via Resend (Resend, Inc., USA). Transfers to the USA are based on the EU-US Data Privacy Framework or standard contractual clauses. <CHECK: DPA WITH NETLIFY AND RESEND>",
             "Your data is deleted once it is no longer needed for this purpose and no legal retention obligations apply."
           ]
         },
