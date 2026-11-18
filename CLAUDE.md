@@ -84,3 +84,4 @@ AI chatbots and automation. I take 1 new project per month (limited capacity).
   subscriptions ~10–20 % below market: Start 45 €, Business 75 €, Growth 449 € (net, 12-month minimum, no setup fee).
   New customers: first month free + free website check. Never claim 'x % cheaper' on the site (§ 6 UWG).
   VAT status open. Next free slot: January 2027. Go-live/SEO guide: docs/go-live-and-free-seo.md.
+- 2026-11-18: LAUNCHED (launched: true) at https://yourstudioos.netlify.app — indexable for Google. Open: VAT status in Impressum, <PRÜFEN> notes in Datenschutz, API keys in Netlify.
