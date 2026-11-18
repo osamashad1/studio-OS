@@ -99,14 +99,21 @@
     "ai": {
       "title": "KI-Chatbots & Automatisierung",
       "text": "Ein Assistent, der Fragen rund um die Uhr beantwortet, und Abläufe, die Ihnen Routinearbeit abnehmen."
+    },
+    "visual": {
+      "stackLabel": "Vorschau: drei Demo-Websites",
+      "sponsored": "Anzeige",
+      "adUrl": "ihre-firma.de",
+      "adHeadline": "Ihr Café in Duisburg – jetzt reservieren",
+      "chatQ": "Haben Sie heute geöffnet?",
+      "chatA": "Ja, bis 18 Uhr! Soll ich einen Tisch reservieren?"
     }
   },
   "packages": {
     "title": "Pakete im Monats-Abo",
-    "intro": "Ihre Website zum festen Monatspreis – Hosting, Wartung und Änderungen inklusive. Keine Einrichtungsgebühr.",
+    "intro": "Ab {month} gibt es Ihre Website zum festen Monatspreis – Hosting, Wartung und Änderungen inklusive. Sichern Sie sich schon jetzt einen Platz.",
     "recommended": "Empfohlen",
-    "choose": "{name} anfragen",
-    "note": "Alle Preise netto pro Monat; das Angebot richtet sich an Unternehmen und Selbstständige. Mindestlaufzeit {months} Monate, danach monatlich kündbar. Keine Einrichtungsgebühr. Beim Paket Growth zahlen Sie das Werbebudget direkt an Google.",
+    "note": "Die Abos starten im {month}; jetzt vormerken ist unverbindlich. Alle Preise netto pro Monat; das Angebot richtet sich an Unternehmen und Selbstständige. Mindestlaufzeit {months} Monate, danach monatlich kündbar. Keine Einrichtungsgebühr. Beim Paket Growth zahlen Sie das Werbebudget direkt an Google.",
     "start": {
       "name": "Start",
       "for": "Für den ersten professionellen Auftritt.",
@@ -153,14 +160,17 @@
       "title": "Für Neukunden",
       "firstMonth": "Der erste Monat ist gratis",
       "check": "Kostenloser Check Ihrer aktuellen Website und Ihres Google-Profils – mit 3 konkreten Tipps",
-      "cta": "Gratis-Check anfragen"
-    }
+      "cta": "Platz vormerken"
+    },
+    "comingSoon": "Bald verfügbar · Start im {month}",
+    "reserve": "{name} vormerken"
   },
   "portfolioPreview": {
     "title": "Arbeiten & Demos",
-    "intro": "So könnte Ihre Website aussehen. Die Demo-Projekte sind frei erfunden und als Demo gekennzeichnet.",
+    "intro": "So könnte Ihre Website aussehen – einfach scrollen, die Vorschauen bewegen sich von selbst. Alle Demo-Projekte sind frei erfunden und als Demo gekennzeichnet.",
     "all": "Ganzes Portfolio",
-    "demoLabel": "Demo-Projekt"
+    "demoLabel": "Demo-Projekt",
+    "shotAlt": "Screenshot der Demo-Website {name}"
   },
   "demos": {
     "cafe": {
@@ -221,7 +231,7 @@
     "intro": "Ihre Frage ist nicht dabei? Schreiben Sie mir einfach.",
     "price": {
       "q": "Was kostet eine Website?",
-      "a": "Ihre Website gibt es im Monats-Abo: Start 45 €, Business 75 €, Growth 449 € pro Monat (netto) – Hosting, Wartung und Änderungen inklusive, keine Einrichtungsgebühr. Für Neukunden ist der erste Monat gratis. Web-Apps, Shops und Automatisierungen kalkuliere ich individuell."
+      "a": "Ab Januar 2027 gibt es Ihre Website im Monats-Abo: Start 45 €, Business 75 €, Growth 449 € pro Monat (netto) – Hosting, Wartung und Änderungen inklusive, keine Einrichtungsgebühr. Für Neukunden ist der erste Monat gratis. Sie können sich schon jetzt einen Platz vormerken. Web-Apps, Shops und Automatisierungen kalkuliere ich individuell."
     },
     "timeline": {
       "q": "Wie lange dauert ein Projekt?",
@@ -241,7 +251,7 @@
     },
     "term": {
       "q": "Wie lange bin ich gebunden?",
-      "a": "Die Mindestlaufzeit beträgt 12 Monate, danach ist das Abo monatlich kündbar. Der erste Monat ist für Neukunden gratis."
+      "a": "Die Abos starten im Januar 2027. Die Mindestlaufzeit beträgt 12 Monate, danach ist das Abo monatlich kündbar. Der erste Monat ist für Neukunden gratis."
     }
   },
   "contact": {
@@ -641,7 +651,7 @@
   "portfolioPage": {
     "metaTitle": "Portfolio",
     "title": "Portfolio",
-    "intro": "Websites, Design und Google Ads. Die Demo-Projekte zeigen, wie Ihre Website aussehen könnte – echte Kundenprojekte folgen.",
+    "intro": "Websites, Design (Branding, Social-Media-Anzeigen, UI/UX) und Google Ads. Alle Arbeiten hier sind Demo-Projekte – echte Kundenprojekte folgen.",
     "filterLabel": "Nach Kategorie filtern",
     "filters": {
       "all": "Alle",
@@ -659,7 +669,8 @@
     },
     "demoNote": "Dies ist ein frei erfundenes Demo-Projekt. Es zeigt Ziele, keine echten Ergebnisse.",
     "openDemo": "Demo-Website öffnen",
-    "cta": "Ähnliches Projekt anfragen"
+    "cta": "Ähnliches Projekt anfragen",
+    "shotAlt": "Vorschau: {name}"
   },
   "cases": {
     "cafe": {
@@ -689,6 +700,41 @@
       "problem": "Eine neue Duftmarke braucht einen Auftritt, der sich hochwertig anfühlt und im Gedächtnis bleibt.",
       "solution": "Ein dunkler, eleganter Auftritt mit einem echten 3D-Flakon, der sich beim Scrollen dreht, und einer Story in drei Kapiteln.",
       "goal": "Eine Marke, über die man spricht – und mehr Anfragen für Probensets und Großhandel."
+    },
+    "brand-hafenbohne": {
+      "title": "Markenauftritt Café Hafenbohne",
+      "summary": "Logo, Farben, Schriften, Visitenkarte und Becher-Banderole für ein Café.",
+      "problem": "Das Café hat kein einheitliches Erscheinungsbild: Karte, Schild und Social Media sehen jeweils anders aus.",
+      "solution": "Ein warmes Markenbild mit Becher-Logo, vier Hausfarben, zwei Schriften und Vorlagen für Druck und Social Media.",
+      "goal": "Wiedererkennung im Viertel – vom Schild über den Becher bis zur Website."
+    },
+    "social-mueller": {
+      "title": "Social-Media-Anzeigen Müller Elektro",
+      "summary": "Anzeigen-Set für Instagram und Facebook: drei Feed-Posts und eine Story.",
+      "problem": "Der Betrieb ist in sozialen Medien kaum sichtbar, Notdienst und Wallbox-Angebot kennt niemand.",
+      "solution": "Drei klare Anzeigenmotive in den Markenfarben – Notdienst, Wallbox, E-Check – plus ein Story-Format mit direktem Anruf-Button.",
+      "goal": "Mehr Anfragen aus der Region und ein Notdienst, an den man sich erinnert."
+    },
+    "uiux-jute-app": {
+      "title": "UI/UX: Bestell-App Gaibandha Jute",
+      "summary": "Vom Wireframe zu fertigen Screens: Katalog, Produktdetail mit Mindestmenge, Anfrage.",
+      "problem": "Großhändler fragen per E-Mail an und vergessen wichtige Angaben wie Menge oder Größe.",
+      "solution": "Eine einfache mobile Anfrage-Strecke: Produkt wählen, Menge über der Mindestmenge einstellen, Anfrage senden – in drei Schritten.",
+      "goal": "Vollständige Anfragen beim ersten Mal und schnellere Angebote."
+    },
+    "ads-cafe": {
+      "title": "Google-Ads-Bericht: Café Hafenbohne",
+      "summary": "Lokale Suchkampagne für ein Café – Beispielbericht über 30 Tage.",
+      "problem": "Wer „Frühstück Duisburg“ sucht, findet das Café nicht.",
+      "solution": "Eine lokale Suchkampagne mit passenden Suchbegriffen, Anzeigen fürs Handy und Messung von Reservierungen und Routenplanungen.",
+      "goal": "Mehr Gäste über Google – zu planbaren Kosten pro Reservierung."
+    },
+    "ads-elektro": {
+      "title": "Google-Ads-Bericht: Müller Elektro",
+      "summary": "Notdienst- und Wallbox-Kampagnen – Beispielbericht über 30 Tage.",
+      "problem": "Notdienst-Anfragen gehen an große Plattformen statt an den lokalen Betrieb.",
+      "solution": "Getrennte Kampagnen für Notdienst, Wallbox und allgemeine Elektroarbeiten, mit Anruf-Erweiterung und Messung von Anrufen und Formularen.",
+      "goal": "Mehr direkte Anrufe und Anfragen zu niedrigen Kosten pro Lead."
     }
   },
   "form": {
@@ -736,7 +782,8 @@
         "design": "Design",
         "chatbot": "KI-Chatbot",
         "automation": "Automatisierung",
-        "check": "Kostenloser Website-Check"
+        "check": "Kostenloser Website-Check",
+        "reserve": "Abo vormerken (ab Januar 2027)"
       },
       "budget": {
         "lt1500": "unter 1.500 €",
@@ -883,6 +930,117 @@
           ]
         }
       ]
+    }
+  },
+  "visuals": {
+    "brand": {
+      "tagline": "CAFÉ · DUISBURG",
+      "colors": "Hausfarben",
+      "type": "Schriften",
+      "typeHeadline": "Überschriften",
+      "typeBody": "Fließtext",
+      "cardLine": "Am Innenhafen · Demo",
+      "sleeve": "Becher-Banderole: „Guten Morgen, Hafen.“"
+    },
+    "social": {
+      "sponsored": "Gesponsert",
+      "posts": [
+        {
+          "kicker": "24/7 in Duisburg",
+          "title": "Stromausfall? Wir sind in 60 Minuten da.",
+          "cta": "Jetzt anrufen"
+        },
+        {
+          "kicker": "E-Mobilität",
+          "title": "Ihre Wallbox – geplant, angemeldet, installiert.",
+          "cta": "Angebot anfragen"
+        },
+        {
+          "kicker": "Sicherheits-Tipp",
+          "title": "Wann war Ihr letzter E-Check?",
+          "cta": "Mehr erfahren"
+        }
+      ],
+      "story": {
+        "title": "Licht aus? Wir helfen sofort.",
+        "cta": "Anrufen"
+      }
+    },
+    "uiux": {
+      "wireframe": "1 · Wireframe",
+      "screens": {
+        "catalogue": "2 · Katalog",
+        "detail": "3 · Produkt & Menge",
+        "done": "4 · Anfrage gesendet"
+      },
+      "catalogueTitle": "Produkte",
+      "products": [
+        "Jutesäcke 60 kg",
+        "Jutetaschen M",
+        "Holzkohle 25 kg"
+      ],
+      "catalogueCta": "Anfrage starten",
+      "detailSpec": "60 kg · ungebleicht · 1–2 Farben Druck",
+      "quantity": "Menge",
+      "moqHint": "Mindestmenge: 5.000 Stk. (Beispiel)",
+      "detailCta": "Anfrage senden",
+      "doneTitle": "Danke!",
+      "doneText": "Sie erhalten Ihr Angebot mit Lieferzeit per E-Mail."
+    },
+    "ads": {
+      "exampleBadge": "Beispielwerte",
+      "period": "Zeitraum: {period}",
+      "adPreview": "So sieht die Anzeige bei Google aus",
+      "sponsored": "Gesponsert",
+      "cafe": {
+        "title": "Café Hafenbohne · Lokale Suche"
+      },
+      "elektro": {
+        "title": "Müller Elektro · Notdienst & Wallbox"
+      },
+      "kpi": {
+        "impressions": "Impressionen",
+        "clicks": "Klicks",
+        "ctr": "Klickrate",
+        "cpc": "Ø Kosten pro Klick",
+        "conversions": "Conversions",
+        "cost": "Kosten",
+        "costPerConv": "Kosten pro Conversion"
+      },
+      "week": "Woche {n}",
+      "chart": {
+        "clicks": "Klicks pro Woche",
+        "leads": "Anfragen (Anrufe + Formulare) pro Woche"
+      },
+      "unit": {
+        "clicks": "Klicks",
+        "leads": "Anfragen"
+      },
+      "devices": "Klicks nach Gerät",
+      "device": {
+        "mobile": "Handy",
+        "desktop": "Computer",
+        "tablet": "Tablet"
+      },
+      "campaigns": "Kampagnen",
+      "campaign": {
+        "emergency": "Notdienst",
+        "wallbox": "Wallbox",
+        "general": "Allgemein"
+      },
+      "terms": "Top-Suchbegriffe",
+      "col": {
+        "term": "Suchbegriff",
+        "clicks": "Klicks",
+        "ctr": "Klickrate",
+        "conversions": "Conv.",
+        "campaign": "Kampagne",
+        "cost": "Kosten",
+        "leads": "Anfragen",
+        "cpl": "Kosten/Anfrage"
+      },
+      "tableView": "Daten als Tabelle anzeigen",
+      "disclaimer": "Demo-Bericht mit Beispielwerten – keine echten Kundendaten. Echte Ergebnisse hängen von Branche, Budget und Wettbewerb ab."
     }
   }
 }

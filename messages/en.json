@@ -99,14 +99,21 @@
     "ai": {
       "title": "AI chatbots & automation",
       "text": "An assistant that answers questions around the clock, and workflows that take routine work off your hands."
+    },
+    "visual": {
+      "stackLabel": "Preview: three demo websites",
+      "sponsored": "Sponsored",
+      "adUrl": "your-business.de",
+      "adHeadline": "Your café in Duisburg – book now",
+      "chatQ": "Are you open today?",
+      "chatA": "Yes, until 6 pm! Shall I book a table?"
     }
   },
   "packages": {
     "title": "Monthly subscription packages",
-    "intro": "Your website at a fixed monthly price – hosting, maintenance and changes included. No setup fee.",
+    "intro": "From {month}, your website comes at a fixed monthly price – hosting, maintenance and changes included. Reserve your spot now.",
     "recommended": "Recommended",
-    "choose": "Request {name}",
-    "note": "All prices are net per month; offers are for businesses and self-employed people. Minimum term {months} months, then cancellable monthly. No setup fee. With Growth, you pay the ad budget directly to Google.",
+    "note": "Subscriptions start in {month}; reserving now is non-binding. All prices are net per month; offers are for businesses and self-employed people. Minimum term {months} months, then cancellable monthly. No setup fee. With Growth, you pay the ad budget directly to Google.",
     "start": {
       "name": "Start",
       "for": "For your first professional presence.",
@@ -153,14 +160,17 @@
       "title": "For new customers",
       "firstMonth": "Your first month is free",
       "check": "Free check of your current website and Google profile – with 3 concrete tips",
-      "cta": "Request free check"
-    }
+      "cta": "Reserve a spot"
+    },
+    "comingSoon": "Coming soon · starting {month}",
+    "reserve": "Reserve {name}"
   },
   "portfolioPreview": {
     "title": "Work & demos",
-    "intro": "This is what your website could look like. The demo projects are invented and labelled as demos.",
+    "intro": "This is what your website could look like – just scroll, the previews move by themselves. All demo projects are invented and labelled as demos.",
     "all": "Full portfolio",
-    "demoLabel": "Demo project"
+    "demoLabel": "Demo project",
+    "shotAlt": "Screenshot of the demo website {name}"
   },
   "demos": {
     "cafe": {
@@ -221,7 +231,7 @@
     "intro": "Your question isn't here? Just write to me.",
     "price": {
       "q": "How much does a website cost?",
-      "a": "Your website comes as a monthly subscription: Start €45, Business €75, Growth €449 per month (net) – hosting, maintenance and changes included, no setup fee. For new customers the first month is free. Web apps, shops and automation are quoted individually."
+      "a": "From January 2027 your website comes as a monthly subscription: Start €45, Business €75, Growth €449 per month (net) – hosting, maintenance and changes included, no setup fee. For new customers the first month is free. You can reserve a spot now. Web apps, shops and automation are quoted individually."
     },
     "timeline": {
       "q": "How long does a project take?",
@@ -241,7 +251,7 @@
     },
     "term": {
       "q": "How long am I committed?",
-      "a": "The minimum term is 12 months; after that the subscription can be cancelled monthly. For new customers the first month is free."
+      "a": "Subscriptions start in January 2027. The minimum term is 12 months; after that the subscription can be cancelled monthly. For new customers the first month is free."
     }
   },
   "contact": {
@@ -641,7 +651,7 @@
   "portfolioPage": {
     "metaTitle": "Portfolio",
     "title": "Portfolio",
-    "intro": "Websites, design and Google Ads. The demo projects show what your website could look like – real client projects are coming.",
+    "intro": "Websites, design (branding, social media ads, UI/UX) and Google Ads. All work shown here is demo projects – real client projects are coming.",
     "filterLabel": "Filter by category",
     "filters": {
       "all": "All",
@@ -659,7 +669,8 @@
     },
     "demoNote": "This is an invented demo project. It shows goals, not real results.",
     "openDemo": "Open demo website",
-    "cta": "Request a similar project"
+    "cta": "Request a similar project",
+    "shotAlt": "Preview: {name}"
   },
   "cases": {
     "cafe": {
@@ -689,6 +700,41 @@
       "problem": "A new fragrance brand needs a presence that feels premium and stays in people's minds.",
       "solution": "A dark, elegant site with a real 3D bottle that turns as you scroll, and a story in three chapters.",
       "goal": "A brand people talk about – and more requests for sample sets and wholesale."
+    },
+    "brand-hafenbohne": {
+      "title": "Brand identity Café Hafenbohne",
+      "summary": "Logo, colours, typefaces, business card and cup sleeve for a café.",
+      "problem": "The café has no consistent look: menu, sign and social media all look different.",
+      "solution": "A warm brand with a cup logo, four house colours, two typefaces and templates for print and social media.",
+      "goal": "Recognition in the neighbourhood – from the sign to the cup to the website."
+    },
+    "social-mueller": {
+      "title": "Social media ads Müller Elektro",
+      "summary": "Ad set for Instagram and Facebook: three feed posts and one story.",
+      "problem": "The business is barely visible on social media; nobody knows about the emergency service or wall boxes.",
+      "solution": "Three clear ad designs in the brand colours – emergency service, wall box, safety check – plus a story format with a direct call button.",
+      "goal": "More enquiries from the region and an emergency service people remember."
+    },
+    "uiux-jute-app": {
+      "title": "UI/UX: order app Gaibandha Jute",
+      "summary": "From wireframe to final screens: catalogue, product detail with minimum order, enquiry.",
+      "problem": "Wholesalers enquire by email and forget key details like quantity or size.",
+      "solution": "A simple mobile enquiry flow: pick a product, set a quantity above the minimum order, send the enquiry – in three steps.",
+      "goal": "Complete enquiries the first time and faster quotes."
+    },
+    "ads-cafe": {
+      "title": "Google Ads report: Café Hafenbohne",
+      "summary": "Local search campaign for a café – example report over 30 days.",
+      "problem": "People searching for “breakfast Duisburg” don't find the café.",
+      "solution": "A local search campaign with matching keywords, mobile-first ads and tracking of bookings and directions.",
+      "goal": "More guests via Google – at a predictable cost per booking."
+    },
+    "ads-elektro": {
+      "title": "Google Ads report: Müller Elektro",
+      "summary": "Emergency and wall box campaigns – example report over 30 days.",
+      "problem": "Emergency enquiries go to big platforms instead of the local business.",
+      "solution": "Separate campaigns for emergency service, wall boxes and general electrical work, with call extensions and tracking of calls and forms.",
+      "goal": "More direct calls and enquiries at a low cost per lead."
     }
   },
   "form": {
@@ -736,7 +782,8 @@
         "design": "Design",
         "chatbot": "AI chatbot",
         "automation": "Automation",
-        "check": "Free website check"
+        "check": "Free website check",
+        "reserve": "Reserve a subscription (from January 2027)"
       },
       "budget": {
         "lt1500": "under €1,500",
@@ -883,6 +930,117 @@
           ]
         }
       ]
+    }
+  },
+  "visuals": {
+    "brand": {
+      "tagline": "CAFÉ · DUISBURG",
+      "colors": "House colours",
+      "type": "Typefaces",
+      "typeHeadline": "headlines",
+      "typeBody": "body text",
+      "cardLine": "Inner harbour · demo",
+      "sleeve": "Cup sleeve: “Good morning, harbour.”"
+    },
+    "social": {
+      "sponsored": "Sponsored",
+      "posts": [
+        {
+          "kicker": "24/7 in Duisburg",
+          "title": "Power cut? We're there in 60 minutes.",
+          "cta": "Call now"
+        },
+        {
+          "kicker": "E-mobility",
+          "title": "Your wall box – planned, registered, installed.",
+          "cta": "Get a quote"
+        },
+        {
+          "kicker": "Safety tip",
+          "title": "When was your last electrical safety check?",
+          "cta": "Learn more"
+        }
+      ],
+      "story": {
+        "title": "Lights out? We help right away.",
+        "cta": "Call"
+      }
+    },
+    "uiux": {
+      "wireframe": "1 · Wireframe",
+      "screens": {
+        "catalogue": "2 · Catalogue",
+        "detail": "3 · Product & quantity",
+        "done": "4 · Enquiry sent"
+      },
+      "catalogueTitle": "Products",
+      "products": [
+        "Jute sacks 60 kg",
+        "Jute bags M",
+        "Charcoal 25 kg"
+      ],
+      "catalogueCta": "Start enquiry",
+      "detailSpec": "60 kg · unbleached · 1–2 colour print",
+      "quantity": "Quantity",
+      "moqHint": "Minimum order: 5,000 pcs (example)",
+      "detailCta": "Send enquiry",
+      "doneTitle": "Thank you!",
+      "doneText": "You'll get your quote with lead time by email."
+    },
+    "ads": {
+      "exampleBadge": "Example values",
+      "period": "Period: {period}",
+      "adPreview": "How the ad looks on Google",
+      "sponsored": "Sponsored",
+      "cafe": {
+        "title": "Café Hafenbohne · Local search"
+      },
+      "elektro": {
+        "title": "Müller Elektro · Emergency & wall box"
+      },
+      "kpi": {
+        "impressions": "Impressions",
+        "clicks": "Clicks",
+        "ctr": "Click rate",
+        "cpc": "Avg. cost per click",
+        "conversions": "Conversions",
+        "cost": "Cost",
+        "costPerConv": "Cost per conversion"
+      },
+      "week": "Week {n}",
+      "chart": {
+        "clicks": "Clicks per week",
+        "leads": "Enquiries (calls + forms) per week"
+      },
+      "unit": {
+        "clicks": "clicks",
+        "leads": "enquiries"
+      },
+      "devices": "Clicks by device",
+      "device": {
+        "mobile": "Phone",
+        "desktop": "Computer",
+        "tablet": "Tablet"
+      },
+      "campaigns": "Campaigns",
+      "campaign": {
+        "emergency": "Emergency",
+        "wallbox": "Wall box",
+        "general": "General"
+      },
+      "terms": "Top search terms",
+      "col": {
+        "term": "Search term",
+        "clicks": "Clicks",
+        "ctr": "Click rate",
+        "conversions": "Conv.",
+        "campaign": "Campaign",
+        "cost": "Cost",
+        "leads": "Enquiries",
+        "cpl": "Cost/enquiry"
+      },
+      "tableView": "Show data as a table",
+      "disclaimer": "Demo report with example values – no real client data. Real results depend on industry, budget and competition."
     }
   }
 }

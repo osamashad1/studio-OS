@@ -1,4 +1,4 @@
-# Test report — 2026-11-18
+# Test report — 2026-11-18 (updated after the portfolio & packages update)
 
 Tested on the production build (`pnpm build && pnpm start`) with Playwright (Chromium).
 Re-run any time: see "How to re-test" at the end.
@@ -8,7 +8,7 @@ Re-run any time: see "How to re-test" at the end.
 | Area | Result |
 |---|---|
 | `pnpm lint`, `pnpm typecheck`, `pnpm build` | ✅ pass, no build warnings |
-| All pages, DE + EN, at 375 / 768 / 1440 px (78 checks) | ✅ 78/78 |
+| All pages, DE + EN, at 375 / 768 / 1440 px (108 checks, incl. 5 new design/ads pages) | ✅ 108/108 |
 | Keyboard only: 40 tab stops on the home page | ✅ 40/40 with visible focus ring; first Tab = "Zum Inhalt springen" |
 | Mobile menu (open, Esc closes) | ✅ |
 | Language switch keeps the page (/de/x → /en/x) | ✅ |
@@ -28,6 +28,14 @@ Re-run any time: see "How to re-test" at the end.
 | Portfolio filters + empty state | ✅ |
 | SEO: canonical, hreflang de/en/x-default, OG image per language, sitemap, robots, JSON-LD | ✅ |
 | Real email delivery via Resend | ⏳ needs your Resend key (docs/setup-email.md) |
+
+## Update 2 — what was added and tested
+- Packages marked "coming soon · start January 2027", buttons "reserve"; AI assistant knows the start month.
+- 3D showcase cards with real demo screenshots that auto-scroll when in view (home + portfolio).
+- Services with visuals (demo screenshot stack, ad, palette, chat).
+- Portfolio Design: brand identity, social media ads, UI/UX app (all demo). Google Ads: 2 demo reports with **example values**.
+- Charts follow the dataviz rules: single series, validated device palette, hover/keyboard tooltip, table view.
+- Chat button compact on phones (no longer covers buttons).
 
 ## Every page (each cell: status 200, no sideways scroll, exactly one h1, all inputs labelled, all images with alt, no duplicate IDs, no browser errors, correct `lang`)
 

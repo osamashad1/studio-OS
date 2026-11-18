@@ -17,6 +17,7 @@ export function createTools(locale: "de" | "en") {
         "Get the studio's monthly subscription packages: what's included, the monthly price in EUR (net), the minimum term and the offers for first-time customers.",
       inputSchema: z.object({}),
       execute: async () => ({
+        status: `coming soon — subscriptions start in ${site.subscription.startMonth} (YYYY-MM); visitors can reserve a spot now via the project form`,
         billing: "monthly subscription, prices net per month, no setup fee",
         minimumTermMonths: site.subscription.minTermMonths,
         afterMinimumTerm: "cancellable monthly",

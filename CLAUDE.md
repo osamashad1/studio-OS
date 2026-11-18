@@ -85,3 +85,6 @@ AI chatbots and automation. I take 1 new project per month (limited capacity).
   New customers: first month free + free website check. Never claim 'x % cheaper' on the site (§ 6 UWG).
   VAT status open. Next free slot: January 2027. Go-live/SEO guide: docs/go-live-and-free-seo.md.
 - 2026-11-18: LAUNCHED (launched: true) at https://yourstudioos.netlify.app — indexable for Google. Open: VAT status in Impressum, <PRÜFEN> notes in Datenschutz, API keys in Netlify.
+- 2026-11-18: Update 2: subscriptions shown as "coming soon", start month in site.ts (subscription.startMonth = 2027-01),
+  CTAs = "reserve". Portfolio previews = real demo screenshots in 3D ShowcaseCard (public/portfolio/demos/, regenerate after demo
+  changes). New demo works: design (brand, social ads, UI/UX) + 2 Google Ads reports with EXAMPLE VALUES (src/content/ads-reports.ts).

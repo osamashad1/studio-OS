@@ -6,7 +6,7 @@ import { Badge } from "@/components/ui/Badge";
 import { categories, portfolio, type Category } from "@/content/portfolio";
 import { Link } from "@/i18n/navigation";
 import { cn } from "@/lib/cn";
-import { MiniSite } from "./MiniSite";
+import { ShowcaseCard } from "./ShowcaseCard";
 
 export function PortfolioGrid() {
   const t = useTranslations("portfolioPage");
@@ -40,19 +40,24 @@ export function PortfolioGrid() {
       {items.length === 0 ? (
         <p className="mt-12 max-w-[60ch] rounded-lg border-2 border-dashed border-steel p-8 text-slate">{t("empty")}</p>
       ) : (
-        <ul className="mt-12 grid gap-x-8 gap-y-12 sm:grid-cols-2">
-          {items.map((item) => (
+        <ul className="mt-16 grid gap-x-12 gap-y-20 sm:grid-cols-2">
+          {items.map((item, idx) => (
             <li key={item.slug}>
-              <Link href={`/portfolio/${item.slug}`} className="group flex flex-col gap-4 rounded-lg">
-                <div className="transition-transform duration-300 group-hover:-translate-y-1">
-                  <MiniSite palette={item.palette} />
-                </div>
+              <Link href={`/portfolio/${item.slug}`} className="group/link flex flex-col gap-6 rounded-lg">
+                <ShowcaseCard
+                  image={item.image}
+                  palette={item.palette}
+                  host={item.host}
+                  alt={t("shotAlt", { name: c(`${item.slug}.title`) })}
+                  flip={idx % 2 === 1}
+                  scroll={item.visual === "website"}
+                />
                 <div className="flex flex-col gap-2">
                   <div className="flex flex-wrap gap-2">
                     {item.demo && <Badge>{t("demoLabel")}</Badge>}
                     <Badge tone="neutral">{t(`filters.${item.category}`)}</Badge>
                   </div>
-                  <h2 className="font-display text-lg font-bold group-hover:text-cobalt">{c(`${item.slug}.title`)}</h2>
+                  <h2 className="font-display text-lg font-bold group-hover/link:text-cobalt">{c(`${item.slug}.title`)}</h2>
                   <p className="text-slate">{c(`${item.slug}.summary`)}</p>
                 </div>
               </Link>

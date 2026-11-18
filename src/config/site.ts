@@ -45,6 +45,8 @@ export const site = {
    * competitors" on the site (§ 6 UWG) — just show the prices.
    */
   subscription: {
+    /** Month the subscriptions start (YYYY-MM). Before that: "coming soon", visitors can reserve. */
+    startMonth: "2027-01",
     minTermMonths: 12, // then cancellable monthly
     setupFee: 0,
   },

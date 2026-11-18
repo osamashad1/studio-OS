@@ -12,12 +12,23 @@ export function Packages() {
   const format = useFormatter();
   const fixed = site.packages.filter((p) => p.id !== "custom");
 
+  const [sy, sm] = site.subscription.startMonth.split("-").map(Number);
+  const startMonth = format.dateTime(new Date(Date.UTC(sy, sm - 1, 15)), {
+    month: "long",
+    year: "numeric",
+    timeZone: "UTC",
+  });
   const eur = (value: number) =>
     format.number(value, { style: "currency", currency: "EUR", maximumFractionDigits: 0 });
 
   return (
     <Section id="pakete" aria-labelledby="packages-title">
-      <SectionHeading id="packages-title" title={t("title")} intro={t("intro")} />
+      <div className="flex flex-col items-start gap-5">
+        <Badge tone="highlight" className="text-base">
+          {t("comingSoon", { month: startMonth })}
+        </Badge>
+        <SectionHeading id="packages-title" title={t("title")} intro={t("intro", { month: startMonth })} />
+      </div>
 
       {(site.offers.firstMonthFree || site.offers.freeWebsiteCheck) && (
         <div className="mt-10 flex flex-col gap-3 rounded-lg bg-signal p-6 text-ink sm:flex-row sm:items-center sm:justify-between sm:p-8">
@@ -81,7 +92,7 @@ export function Packages() {
                 href={contactHref}
                 variant={recommended ? "onDarkPrimary" : "secondary"}
               >
-                {t("choose", { name: t(`${pkg.id}.name`) })}
+                {t("reserve", { name: t(`${pkg.id}.name`) })}
               </ButtonLink>
             </article>
           );
@@ -98,7 +109,7 @@ export function Packages() {
         </ButtonLink>
       </div>
       <p className="mt-6 max-w-[80ch] text-sm text-slate">
-        {t("note", { months: site.subscription.minTermMonths })}
+        {t("note", { months: site.subscription.minTermMonths, month: startMonth })}
       </p>
     </Section>
   );

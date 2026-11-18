@@ -4,7 +4,11 @@ import { useTranslations } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { use } from "react";
 import { alternates } from "@/lib/seo";
-import { MiniSite } from "@/components/portfolio/MiniSite";
+import { ShowcaseCard } from "@/components/portfolio/ShowcaseCard";
+import { AdsReportView } from "@/components/portfolio/visuals/AdsReportView";
+import { BrandHafenbohne } from "@/components/portfolio/visuals/BrandHafenbohne";
+import { SocialMueller } from "@/components/portfolio/visuals/SocialMueller";
+import { UiuxJuteApp } from "@/components/portfolio/visuals/UiuxJuteApp";
 import { Badge } from "@/components/ui/Badge";
 import { ButtonLink } from "@/components/ui/Button";
 import { Section } from "@/components/ui/Section";
@@ -42,8 +46,17 @@ export default function CaseStudyPage({ params }: PageProps<"/[locale]/portfolio
           <h1 className="text-2xl font-bold sm:text-3xl">{t(`${slug}.title`)}</h1>
           <p className="max-w-[60ch] text-lg text-slate">{t(`${slug}.summary`)}</p>
         </div>
-        <div className="mt-12 max-w-4xl">
-          <MiniSite palette={item.palette} />
+        <div className="mt-14">
+          {item.visual === "website" && (
+            <div className="max-w-4xl">
+              <ShowcaseCard image={item.image} palette={item.palette} host={item.host} alt={p("shotAlt", { name: t(`${slug}.title`) })} priority />
+            </div>
+          )}
+          {item.visual === "brand" && <BrandHafenbohne />}
+          {item.visual === "social" && <SocialMueller />}
+          {item.visual === "uiux" && <UiuxJuteApp />}
+          {item.visual === "adsCafe" && <AdsReportView report="cafe" />}
+          {item.visual === "adsElektro" && <AdsReportView report="elektro" />}
         </div>
       </Section>
       <Section tone="white">
@@ -57,9 +70,7 @@ export default function CaseStudyPage({ params }: PageProps<"/[locale]/portfolio
         </dl>
         {item.demo && <p className="mt-10 max-w-[70ch] text-sm text-slate">{p("demoNote")}</p>}
         <div className="mt-10 flex flex-wrap gap-3">
-          {item.demo && (
-            <ButtonLink href={`/demos/${slug}`}>{p("openDemo")}</ButtonLink>
-          )}
+          {item.demoUrl && <ButtonLink href={item.demoUrl}>{p("openDemo")}</ButtonLink>}
           <ButtonLink href={contactHref} variant="secondary">
             {p("cta")}
           </ButtonLink>

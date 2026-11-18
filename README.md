@@ -11,4 +11,5 @@ pnpm dev          # http://localhost:3000/de
 - Business info (name, email, prices, availability, launch switch): `src/config/site.ts`
 - All texts: `messages/de.json`, `messages/en.json`
 - Rules for AI coding tools: `CLAUDE.md` (also read via AGENTS.md / GEMINI.md)
+- Portfolio items: `src/content/portfolio.ts` (screenshots in `public/portfolio/`), demo ads data: `src/content/ads-reports.ts`
 - Going live: `docs/deploy.md` · Email setup: `docs/setup-email.md` · Tests: `docs/test-report.md`

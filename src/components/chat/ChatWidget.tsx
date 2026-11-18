@@ -70,12 +70,12 @@ export function ChatWidget() {
         aria-expanded={open}
         aria-controls={panelId}
         onClick={() => setOpen((o) => !o)}
-        className="fixed right-4 bottom-4 z-50 flex h-14 items-center gap-2 rounded-full bg-ink pr-5 pl-4 font-semibold text-paper shadow-xl ring-2 ring-paper/25 transition-colors hover:bg-cobalt sm:right-6 sm:bottom-6"
+        className="fixed right-4 bottom-4 z-50 flex h-14 items-center gap-2 rounded-full bg-ink px-3.5 font-semibold sm:pr-5 sm:pl-4 text-paper shadow-xl ring-2 ring-paper/25 transition-colors hover:bg-cobalt sm:right-6 sm:bottom-6"
       >
         <span aria-hidden className="relative flex size-7 items-center justify-center rounded-full bg-signal text-ink">
           {open ? "×" : <svg viewBox="0 0 20 20" className="size-4"><path d="M3 4h14v9H8l-4 3v-3H3z" fill="currentColor" /></svg>}
         </span>
-        {open ? t("close") : t("open")}
+        <span className="sr-only sm:not-sr-only">{open ? t("close") : t("open")}</span>
       </button>
 
       <div
