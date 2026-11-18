@@ -202,8 +202,7 @@
   },
   "about": {
     "title": "Hi, I'm {name}.",
-    "photoAlt": "Photo of {name}",
-    "photoPlaceholder": "Placeholder for your photo",
+    "photoAlt": "Portrait of {name}",
     "text": [
       "I live in Duisburg and study Mobility and Logistics (B.Sc.) at Rhine-Waal University of Applied Sciences (HSRW). Alongside that, I combine three things that usually take three different agencies: design, development and Google Ads.",
       "I take on only one new project per month. That way you get my full attention – personally, in German or English."

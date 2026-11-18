@@ -202,8 +202,7 @@
   },
   "about": {
     "title": "Hallo, ich bin {name}.",
-    "photoAlt": "Foto von {name}",
-    "photoPlaceholder": "Platzhalter für Ihr Foto",
+    "photoAlt": "Porträt von {name}",
     "text": [
       "Ich lebe in Duisburg und studiere Mobility and Logistics (B.Sc.) an der Hochschule Rhein-Waal (HSRW). Daneben verbinde ich drei Dinge, die sonst meist drei verschiedene Agenturen übernehmen: Design, Entwicklung und Google Ads.",
       "Ich nehme nur ein neues Projekt pro Monat an. So bekommen Sie meine volle Aufmerksamkeit – persönlich, auf Deutsch oder Englisch."

@@ -16,6 +16,7 @@ export type Package = {
 export const site = {
   studioName: "Studio OS",
   ownerName: "Osama Shad",
+  ownerPhoto: "/about/osama-shad.jpg", // in public/about/
   email: "osamashad97@gmail.com",
   phone: null as string | null, // optional, e.g. "+49 203 123456"
   address: { street: "Neudorfer Straße 109", postalCode: "47057", city: "Duisburg" },
