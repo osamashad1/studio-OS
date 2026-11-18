@@ -13,6 +13,23 @@ export type Package = {
   recommended?: boolean;
 };
 
+/**
+ * Public site address. Tolerates a missing "https://" or a trailing slash in the
+ * NEXT_PUBLIC_SITE_URL variable, and never breaks the build on an invalid value.
+ */
+function siteUrl() {
+  for (const raw of [process.env.NEXT_PUBLIC_SITE_URL, process.env.URL]) {
+    const v = raw?.trim();
+    if (!v) continue;
+    try {
+      return new URL(/^https?:\/\//.test(v) ? v : `https://${v}`).origin;
+    } catch {
+      // ignore invalid value, try the next one
+    }
+  }
+  return "https://yourstudioos.netlify.app";
+}
+
 export const site = {
   studioName: "Studio OS",
   ownerName: "Osama Shad",
@@ -24,7 +41,7 @@ export const site = {
   country: "DE",
   // Your domain. On Netlify the site URL is filled in automatically (URL); set
   // NEXT_PUBLIC_SITE_URL=https://mydomain.de once your own domain is connected.
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? process.env.URL ?? "https://example.com",
+  url: siteUrl(),
 
   /**
    * false = site is hidden from Google (noindex). Set to true only when names, Impressum
