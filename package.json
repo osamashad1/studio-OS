@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@ai-sdk/google": "^4.0.122",
+    "@ai-sdk/react": "^4.0.180",
     "@hookform/resolvers": "^7.0.7",
     "@react-three/drei": "^10.7.9",
     "@react-three/fiber": "^9.8.2",
@@ -24,6 +25,7 @@
     "react-dom": "19.3.0",
     "react-hook-form": "^7.92.0",
     "resend": "^6.38.1",
+    "server-only": "^0.0.1",
     "three": "^0.187.0",
     "zod": "^4.6.7"
   },

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "Studio Name — Websites that bring you customers",
+    "title": "Studio OS — Websites that bring you customers",
     "description": "Websites, SEO and Google Ads in one package for small businesses in Duisburg and across Germany."
   },
   "nav": {
@@ -40,7 +40,7 @@
     "ctaSecondary": "See packages",
     "disabled": "Disabled",
     "badges": "Badges",
-    "badgeAvailable": "1 project slot free in December",
+    "badgeAvailable": "1 project slot free in January",
     "badgeRecommended": "Recommended",
     "badgeDemo": "Demo project",
     "forms": "Form fields",
@@ -70,5 +70,820 @@
     "cta": "Request a project",
     "secondary": "See packages",
     "sceneLabel": "Glossy blue building blocks assembling into a browser window, with one yellow button block."
+  },
+  "services": {
+    "title": "What I build for you",
+    "intro": "Your website comes first. Everything else makes sure it gets found and brings in enquiries.",
+    "web": {
+      "kicker": "Main focus",
+      "title": "Websites & web apps",
+      "text": "Modern, fast websites that work as well on a phone as on a laptop – and turn visitors into enquiries.",
+      "points": [
+        "Custom design, no templates",
+        "Optimised for phones",
+        "German & English",
+        "Contact and booking forms",
+        "Fast loading",
+        "Web apps & online shops on request"
+      ],
+      "cta": "Request a website project"
+    },
+    "ads": {
+      "title": "Google Ads & SEO",
+      "text": "So customers find you: Google Business Profile, search engine basics and ads that fit your budget."
+    },
+    "design": {
+      "title": "Graphic design",
+      "text": "Logo, colours, flyers and social media graphics – one look that fits together."
+    },
+    "ai": {
+      "title": "AI chatbots & automation",
+      "text": "An assistant that answers questions around the clock, and workflows that take routine work off your hands."
+    }
+  },
+  "packages": {
+    "title": "Monthly subscription packages",
+    "intro": "Your website at a fixed monthly price – hosting, maintenance and changes included. No setup fee.",
+    "recommended": "Recommended",
+    "choose": "Request {name}",
+    "note": "All prices are net per month; offers are for businesses and self-employed people. Minimum term {months} months, then cancellable monthly. No setup fee. With Growth, you pay the ad budget directly to Google.",
+    "start": {
+      "name": "Start",
+      "for": "For your first professional presence.",
+      "features": [
+        "One-page website",
+        "Hosting & SSL included",
+        "Optimised for phones",
+        "Contact form",
+        "SEO basics",
+        "1 change per month"
+      ]
+    },
+    "business": {
+      "name": "Business",
+      "for": "For businesses that want to be found online.",
+      "features": [
+        "Up to 6 pages",
+        "Bilingual (DE/EN)",
+        "Google Business Profile",
+        "SEO setup",
+        "Hosting, SSL & maintenance",
+        "3 changes per month"
+      ]
+    },
+    "growth": {
+      "name": "Growth",
+      "for": "For more enquiries from the first month.",
+      "features": [
+        "Everything in Business",
+        "Google Ads management",
+        "AI chat assistant",
+        "Short monthly report",
+        "Ad budget paid separately to Google"
+      ]
+    },
+    "custom": {
+      "name": "Custom project",
+      "text": "Web app, online shop or automation – price on request.",
+      "cta": "Discuss your project"
+    },
+    "perMonth": "/ month",
+    "onRequest": "On request",
+    "offer": {
+      "title": "For new customers",
+      "firstMonth": "Your first month is free",
+      "check": "Free check of your current website and Google profile – with 3 concrete tips",
+      "cta": "Request free check"
+    }
+  },
+  "portfolioPreview": {
+    "title": "Work & demos",
+    "intro": "This is what your website could look like. The demo projects are invented and labelled as demos.",
+    "all": "Full portfolio",
+    "demoLabel": "Demo project"
+  },
+  "demos": {
+    "cafe": {
+      "name": "Café Hafenbohne",
+      "summary": "Warm café in Duisburg: menu, opening hours and table booking."
+    },
+    "handwerk": {
+      "name": "Müller Elektro",
+      "summary": "Electrician with emergency call button, services and quote request."
+    },
+    "export": {
+      "name": "Gaibandha Jute Co.",
+      "summary": "B2B exporter: catalogue of jute sacks, bags and charcoal, minimum order quantities, enquiry form."
+    },
+    "luxury": {
+      "name": "Maison Noir Duft",
+      "summary": "Cinematic site for a fragrance brand: 3D bottle, scroll story, collection."
+    }
+  },
+  "process": {
+    "title": "How we work together",
+    "intro": "Four clear steps – you always know what happens next.",
+    "call": {
+      "title": "Free first call",
+      "text": "We talk about your business, goals and budget. Afterwards you get a concrete quote."
+    },
+    "concept": {
+      "title": "Concept & design",
+      "text": "I plan the content and structure and show you the design before any code is written."
+    },
+    "build": {
+      "title": "Build",
+      "text": "I build the website, you review it on a preview address and give feedback."
+    },
+    "launch": {
+      "title": "Launch & ads",
+      "text": "The website goes live; your Google profile and, if you like, Google Ads are set up."
+    }
+  },
+  "about": {
+    "title": "Hi, I'm {name}.",
+    "photoAlt": "Photo of {name}",
+    "photoPlaceholder": "Placeholder for your photo",
+    "text": [
+      "I live in Duisburg and study Mobility and Logistics (B.Sc.) at Rhine-Waal University of Applied Sciences (HSRW). Alongside that, I combine three things that usually take three different agencies: design, development and Google Ads.",
+      "I take on only one new project per month. That way you get my full attention – personally, in German or English."
+    ],
+    "skills": [
+      "Web design",
+      "Web development",
+      "Google Ads",
+      "SEO",
+      "Graphic design",
+      "AI & automation"
+    ]
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "intro": "Your question isn't here? Just write to me.",
+    "price": {
+      "q": "How much does a website cost?",
+      "a": "Your website comes as a monthly subscription: Start €45, Business €75, Growth €449 per month (net) – hosting, maintenance and changes included, no setup fee. For new customers the first month is free. Web apps, shops and automation are quoted individually."
+    },
+    "timeline": {
+      "q": "How long does a project take?",
+      "a": "It depends on the scope and on how quickly texts and images are ready. We set the schedule together in the first call."
+    },
+    "hosting": {
+      "q": "Where will my website be hosted?",
+      "a": "Hosting and the SSL certificate are included in the subscription. Your website runs with a reliable provider using EU servers or GDPR-compliant contracts."
+    },
+    "changes": {
+      "q": "Can I change things after launch?",
+      "a": "Yes. Depending on the package, 1 to 3 changes per month are included – for example new opening hours, texts or images. We discuss bigger extensions first."
+    },
+    "language": {
+      "q": "Do you work in English too?",
+      "a": "Yes. I work in German and English, and your website can be bilingual too."
+    },
+    "term": {
+      "q": "How long am I committed?",
+      "a": "The minimum term is 12 months; after that the subscription can be cancelled monthly. For new customers the first month is free."
+    }
+  },
+  "contact": {
+    "title": "Request a project",
+    "intro": "Tell me briefly about your business and your plans. I'll get back to you personally.",
+    "direct": "Prefer email?"
+  },
+  "demoBanner": {
+    "text": "Demo by {studio} — this is what your website could look like.",
+    "back": "Back to the studio website"
+  },
+  "demoCafe": {
+    "metaTitle": "Café Hafenbohne – Demo",
+    "navLabel": "Café navigation",
+    "nav": {
+      "menu": "Menu",
+      "hours": "Hours",
+      "reserve": "Book"
+    },
+    "hero": {
+      "kicker": "Specialty coffee at Duisburg's inner harbour",
+      "title": "Coffee with a harbour view.",
+      "text": "Freshly roasted coffee, homemade cake and a seat by the window – right in the inner harbour.",
+      "cta": "Book a table",
+      "secondary": "See the menu"
+    },
+    "menu": {
+      "title": "Our menu",
+      "text": "Everything fresh, much of it homemade. Vegan options on request.",
+      "groups": [
+        {
+          "title": "Coffee",
+          "items": [
+            {
+              "name": "Espresso",
+              "desc": "House roast, chocolatey",
+              "price": "€2.40"
+            },
+            {
+              "name": "Flat white",
+              "desc": "Double espresso, microfoam",
+              "price": "€3.90"
+            },
+            {
+              "name": "Filter coffee",
+              "desc": "Bean of the week",
+              "price": "€3.20"
+            }
+          ]
+        },
+        {
+          "title": "Breakfast",
+          "items": [
+            {
+              "name": "Harbour breakfast",
+              "desc": "Bread, cheese, egg, jam",
+              "price": "€11.50"
+            },
+            {
+              "name": "Porridge",
+              "desc": "Oats, berries, nuts",
+              "price": "€7.90"
+            },
+            {
+              "name": "Avocado toast",
+              "desc": "Sourdough, chilli, lime",
+              "price": "€9.40"
+            }
+          ]
+        },
+        {
+          "title": "Cake",
+          "items": [
+            {
+              "name": "Cheesecake",
+              "desc": "Grandma's recipe",
+              "price": "€4.20"
+            },
+            {
+              "name": "Cinnamon roll",
+              "desc": "Warm from 10 am",
+              "price": "€3.60"
+            },
+            {
+              "name": "Tart of the day",
+              "desc": "Ask at the counter",
+              "price": "€4.50"
+            }
+          ]
+        }
+      ]
+    },
+    "hours": {
+      "title": "Opening hours",
+      "rows": [
+        {
+          "day": "Monday – Friday",
+          "time": "8:00 – 18:00"
+        },
+        {
+          "day": "Saturday",
+          "time": "9:00 – 18:00"
+        },
+        {
+          "day": "Sunday & holidays",
+          "time": "10:00 – 17:00"
+        }
+      ]
+    },
+    "map": {
+      "title": "How to find us",
+      "label": "Map placeholder: café location at the inner harbour",
+      "address": "Example Street 1, 47051 Duisburg (demo address)"
+    },
+    "form": {
+      "title": "Book a table",
+      "text": "For groups of 7 or more, please give us a call.",
+      "name": "Name",
+      "phone": "Phone",
+      "date": "Date",
+      "time": "Time",
+      "guests": "Guests",
+      "note": "Note (optional)",
+      "submit": "Send booking",
+      "success": "Thank you! Your booking request has arrived. (Demo)",
+      "error": "Please fill this in (with a valid value).",
+      "demoNote": "Demo: no data is sent."
+    },
+    "footer": "© Café Hafenbohne – invented demo project."
+  },
+  "demoHandwerk": {
+    "metaTitle": "Müller Elektro – Demo",
+    "emergency": {
+      "text": "Power cut? 24-hour emergency service in Duisburg and the area.",
+      "call": "Call emergency line",
+      "short": "Emergency"
+    },
+    "hero": {
+      "kicker": "Master electricians in Duisburg",
+      "title": "Power that simply works.",
+      "text": "From sockets to wall boxes: we plan, install and test – tidy, on time and with a fixed quote up front.",
+      "cta": "Request a quote"
+    },
+    "trust": [
+      "Master craftsman business",
+      "Fixed quote before we start",
+      "Tidy work site",
+      "Emergency service around the clock"
+    ],
+    "services": {
+      "title": "Our services",
+      "items": [
+        {
+          "title": "Electrical installation",
+          "text": "New builds, renovations and extensions – to standard."
+        },
+        {
+          "title": "Wall box & e-mobility",
+          "text": "Advice, grid registration and installation."
+        },
+        {
+          "title": "Solar power",
+          "text": "Connection and storage for your solar system."
+        },
+        {
+          "title": "Smart home",
+          "text": "Lights, heating and blinds from an app."
+        },
+        {
+          "title": "Safety check",
+          "text": "Safety inspection for homes, offices and businesses."
+        },
+        {
+          "title": "Fault service",
+          "text": "Fast help with outages – weekends too."
+        }
+      ]
+    },
+    "steps": {
+      "title": "How it works",
+      "items": [
+        "Send a request or call",
+        "On-site visit & fixed quote",
+        "Clean work & test report"
+      ]
+    },
+    "form": {
+      "title": "Request a quote",
+      "text": "Briefly describe your project – we'll get back to you with a suggested date.",
+      "name": "Name",
+      "phone": "Phone",
+      "email": "Email (optional)",
+      "service": "Service",
+      "message": "Your project",
+      "submit": "Send request",
+      "success": "Thank you! Your request has arrived. (Demo)",
+      "error": "Please fill this in (with a valid value).",
+      "demoNote": "Demo: no data is sent."
+    },
+    "footer": "© Müller Elektro – invented demo project. The phone number is not real."
+  },
+  "demoExport": {
+    "metaTitle": "Gaibandha Jute Co. – Demo",
+    "navLabel": "Navigation",
+    "nav": {
+      "products": "Products",
+      "enquiry": "Enquiry"
+    },
+    "hero": {
+      "kicker": "Jute from Bangladesh for buyers worldwide",
+      "title": "Natural jute, shipped worldwide.",
+      "text": "Jute sacks, jute bags and jute-stick charcoal – direct from the manufacturer, with samples before you order.",
+      "cta": "Send an enquiry"
+    },
+    "facts": [
+      {
+        "label": "Product lines",
+        "value": "3"
+      },
+      {
+        "label": "Incoterms",
+        "value": "FOB / CIF"
+      },
+      {
+        "label": "Samples",
+        "value": "On request"
+      },
+      {
+        "label": "Custom print",
+        "value": "Available"
+      }
+    ],
+    "products": {
+      "title": "Product catalogue",
+      "text": "All figures are example values for this demo.",
+      "items": [
+        {
+          "name": "Jute sacks",
+          "text": "Sturdy sacks for coffee, cocoa, grain and potatoes.",
+          "specs": [
+            {
+              "label": "Sizes",
+              "value": "50 / 60 / 100 kg"
+            },
+            {
+              "label": "MOQ",
+              "value": "5,000 pcs (example)"
+            },
+            {
+              "label": "Print",
+              "value": "1–2 colours"
+            }
+          ]
+        },
+        {
+          "name": "Jute bags",
+          "text": "Shopping and promotional bags, also with your logo.",
+          "specs": [
+            {
+              "label": "Sizes",
+              "value": "S / M / L"
+            },
+            {
+              "label": "MOQ",
+              "value": "1,000 pcs (example)"
+            },
+            {
+              "label": "Handles",
+              "value": "Jute or cotton"
+            }
+          ]
+        },
+        {
+          "name": "Jute-stick charcoal",
+          "text": "Activated-carbon raw material made from jute sticks, e.g. for industry and cosmetics.",
+          "specs": [
+            {
+              "label": "Packing",
+              "value": "25 kg bags"
+            },
+            {
+              "label": "MOQ",
+              "value": "1 container (example)"
+            },
+            {
+              "label": "Moisture",
+              "value": "On request"
+            }
+          ]
+        }
+      ]
+    },
+    "why": {
+      "title": "Why Gaibandha Jute",
+      "items": [
+        {
+          "title": "Samples before you order",
+          "text": "Check quality and finish before placing an order."
+        },
+        {
+          "title": "Custom printing",
+          "text": "Logo, colours and sizes to your specification."
+        },
+        {
+          "title": "Clear shipping terms",
+          "text": "FOB or CIF – with complete export documents."
+        }
+      ]
+    },
+    "form": {
+      "title": "Send an enquiry",
+      "text": "Tell us product and quantity – you'll get a quote with lead time.",
+      "company": "Company",
+      "country": "Country",
+      "email": "Email",
+      "product": "Product",
+      "quantity": "Quantity",
+      "message": "Message (optional)",
+      "submit": "Send enquiry",
+      "success": "Thank you! Your enquiry has arrived. (Demo)",
+      "error": "Please fill this in (with a valid value).",
+      "demoNote": "Demo: no data is sent."
+    },
+    "footer": "© Gaibandha Jute Co. – invented demo project."
+  },
+  "demoLuxury": {
+    "metaTitle": "Maison Noir Duft – Demo",
+    "navLabel": "Navigation",
+    "nav": {
+      "collection": "Collection",
+      "contact": "Contact"
+    },
+    "bottleLabel": "Glass bottle with a gold cap and amber fragrance",
+    "hero": {
+      "kicker": "EAU DE PARFUM",
+      "title1": "Light",
+      "title2": "that lingers.",
+      "text": "A scent of amber, fig and warm wood – for evenings you remember.",
+      "cta": "DISCOVER THE COLLECTION"
+    },
+    "story": [
+      {
+        "kicker": "I · THE INGREDIENTS",
+        "title": "What nature gives.",
+        "text": "Ripe fig, bergamot and a breath of iris. Chosen in small batches, harvested at the right moment."
+      },
+      {
+        "kicker": "II · THE CRAFT",
+        "title": "Time as an ingredient.",
+        "text": "Each composition rests for weeks before it is bottled. Only then do the notes become one."
+      },
+      {
+        "kicker": "III · THE BOTTLE",
+        "title": "Weight in your hand.",
+        "text": "Heavy glass, a golden cap – made to stay on the table long after the scent has faded."
+      }
+    ],
+    "collection": {
+      "title": "The collection",
+      "items": [
+        {
+          "name": "Ambre Nuit",
+          "notes": "AMBER · FIG · CEDAR",
+          "text": "Warm and deep – the scent of this page."
+        },
+        {
+          "name": "Iris Pâle",
+          "notes": "IRIS · BERGAMOT · MUSK",
+          "text": "Bright, powdery, calm."
+        },
+        {
+          "name": "Fumée",
+          "notes": "INCENSE · LEATHER · VETIVER",
+          "text": "Smoky, dark, unforgettable."
+        }
+      ]
+    },
+    "form": {
+      "title": "Contact",
+      "text": "Sample set, wholesale or a private event – we look forward to your message.",
+      "name": "Name",
+      "email": "Email",
+      "interest": "Your request",
+      "options": [
+        "Sample set",
+        "Wholesale",
+        "Private event"
+      ],
+      "message": "Message (optional)",
+      "submit": "SEND",
+      "success": "Merci. Your message has arrived. (Demo)",
+      "error": "Please fill this in (with a valid value).",
+      "demoNote": "Demo: no data is sent."
+    },
+    "footer": "© Maison Noir Duft – invented brand, demo project."
+  },
+  "portfolioPage": {
+    "metaTitle": "Portfolio",
+    "title": "Portfolio",
+    "intro": "Websites, design and Google Ads. The demo projects show what your website could look like – real client projects are coming.",
+    "filterLabel": "Filter by category",
+    "filters": {
+      "all": "All",
+      "websites": "Websites",
+      "design": "Design",
+      "ads": "Google Ads"
+    },
+    "count": "{count, plural, one {# project} other {# projects}} shown",
+    "empty": "There is no published work in this category yet. Real projects are coming soon.",
+    "demoLabel": "Demo project",
+    "blocks": {
+      "problem": "Starting point",
+      "solution": "Solution",
+      "goal": "Goal"
+    },
+    "demoNote": "This is an invented demo project. It shows goals, not real results.",
+    "openDemo": "Open demo website",
+    "cta": "Request a similar project"
+  },
+  "cases": {
+    "cafe": {
+      "title": "Café Hafenbohne",
+      "summary": "Website for a café: menu, opening hours and table booking.",
+      "problem": "Guests only find opening hours and the menu on social media; bookings come in by phone only.",
+      "solution": "A warm one-page website with menu, opening hours, directions and a booking form – optimised for phones.",
+      "goal": "More bookings online, fewer calls at peak times and better visibility on Google Maps."
+    },
+    "handwerk": {
+      "title": "Müller Elektro",
+      "summary": "Trust-focused website for an electrician with an emergency service.",
+      "problem": "The old website looks outdated, and the emergency number is hard to find on a phone.",
+      "solution": "A clear structure, an always-visible emergency button, services at a glance and a simple quote request.",
+      "goal": "More qualified enquiries from Duisburg and the area, and faster contact in an emergency."
+    },
+    "export": {
+      "title": "Gaibandha Jute Co.",
+      "summary": "B2B website for a jute exporter, English first.",
+      "problem": "International buyers can't find product data, minimum order quantities or shipping terms.",
+      "solution": "A product catalogue with specifications, MOQs and Incoterms, plus a structured enquiry form.",
+      "goal": "Better enquiries from wholesalers worldwide – with everything needed for a fast quote."
+    },
+    "luxury": {
+      "title": "Maison Noir Duft",
+      "summary": "Cinematic brand website with a 3D bottle and a scroll story.",
+      "problem": "A new fragrance brand needs a presence that feels premium and stays in people's minds.",
+      "solution": "A dark, elegant site with a real 3D bottle that turns as you scroll, and a story in three chapters.",
+      "goal": "A brand people talk about – and more requests for sample sets and wholesale."
+    }
+  },
+  "form": {
+    "name": "Name",
+    "email": "Email",
+    "business": "Type of business",
+    "budget": "Budget",
+    "needs": "What do you need?",
+    "start": "Preferred start",
+    "message": "Your message",
+    "messageHint": "What does your business do, and what should the website achieve?",
+    "choose": "Please choose",
+    "privacy": "I have read the <link>privacy policy</link> and agree that my details are used to handle my enquiry.",
+    "submit": "Send request",
+    "sending": "Sending …",
+    "success": {
+      "title": "Thank you! I'll get back to you within 24 hours.",
+      "text": "Your request has arrived. You'll get my reply at the email address you entered."
+    },
+    "error": "Sorry, that didn't work. Please email me directly at {email}.",
+    "rateLimited": "You've just sent several requests. Please try again in a few minutes or email me directly at {email}.",
+    "errors": {
+      "required": "Please choose an option.",
+      "name": "Please enter your name.",
+      "email": "Please enter a valid email address.",
+      "needs": "Please choose at least one service.",
+      "messageShort": "Please write at least 20 characters.",
+      "tooLong": "This text is too long.",
+      "privacy": "Please confirm the privacy policy."
+    },
+    "options": {
+      "business": {
+        "cafe": "Café / restaurant",
+        "craft": "Trades / crafts",
+        "shop": "Shop / retail",
+        "service": "Local service",
+        "export": "Export / B2B",
+        "other": "Something else"
+      },
+      "needs": {
+        "website": "Website",
+        "webapp": "Web app",
+        "ads": "Google Ads",
+        "seo": "SEO",
+        "design": "Design",
+        "chatbot": "AI chatbot",
+        "automation": "Automation",
+        "check": "Free website check"
+      },
+      "budget": {
+        "lt1500": "under €1,500",
+        "1500to3000": "€1,500 – 3,000",
+        "3000to6000": "€3,000 – 6,000",
+        "gt6000": "over €6,000",
+        "unsure": "Not sure yet"
+      },
+      "start": {
+        "asap": "As soon as possible",
+        "1to3": "In 1–3 months",
+        "later": "Later",
+        "unsure": "Not sure yet"
+      }
+    }
+  },
+  "chat": {
+    "open": "Questions?",
+    "close": "Close",
+    "title": "Studio assistant",
+    "subtitle": "AI assistant · replies instantly",
+    "welcome": "Hi! I can answer your questions about websites, packages and the process. How can I help?",
+    "starters": [
+      "How much does a website cost?",
+      "How long does a project take?",
+      "Which package suits my café?"
+    ],
+    "placeholder": "Your question …",
+    "inputLabel": "Message to the assistant",
+    "send": "Send",
+    "you": "You",
+    "assistant": "Assistant",
+    "typing": "Assistant is typing",
+    "leadSaved": "✓ Your details have been passed on.",
+    "limit": "You've reached the maximum number of messages. For anything else, please use the \"Request a project\" form – I'll get back to you personally.",
+    "privacy": "The chat is processed by an AI provider (Google). More in the <link>privacy policy</link>.",
+    "errors": {
+      "notConfigured": "The assistant isn't available right now. Feel free to email me at {email} or use the form.",
+      "rateLimited": "Lots of messages are coming in right now. Please try again in a few minutes.",
+      "generic": "Sorry, that didn't work. Please try again or email {email}."
+    }
+  },
+  "legal": {
+    "englishNote": "This is an English translation for convenience. Only the German version is legally binding.",
+    "impressum": {
+      "title": "Legal notice (Impressum)",
+      "sections": [
+        {
+          "title": "Information according to § 5 DDG",
+          "text": [
+            "Osama Shad\nStudio OS\nNeudorfer Straße 109\n47057 Duisburg\nGermany"
+          ]
+        },
+        {
+          "title": "Contact",
+          "text": [
+            "Email: osamashad97@gmail.com"
+          ]
+        },
+        {
+          "title": "VAT",
+          "text": [
+            "VAT ID according to § 27a UStG: <VAT ID – if available>",
+            "OR: No VAT is charged according to § 19 UStG (small business regulation). <DELETE WHAT DOES NOT APPLY>"
+          ]
+        },
+        {
+          "title": "Responsible for content according to § 18 (2) MStV",
+          "text": [
+            "Osama Shad, address as above"
+          ]
+        },
+        {
+          "title": "Consumer dispute resolution",
+          "text": [
+            "I am neither willing nor obliged to take part in dispute resolution proceedings before a consumer arbitration board."
+          ]
+        },
+        {
+          "title": "Liability for content and links",
+          "text": [
+            "The content of this website was created with care. However, I cannot guarantee that it is correct, complete and up to date. The operators of external links are solely responsible for their content.",
+            "The demo projects on this website (e.g. “Café Hafenbohne”, “Müller Elektro”, “Gaibandha Jute Co.”, “Maison Noir Duft”) are invented. Any similarity to real businesses is unintended."
+          ]
+        }
+      ]
+    },
+    "datenschutz": {
+      "title": "Privacy policy",
+      "intro": "Last updated: 18 November 2026. This policy explains which personal data is processed when you visit this website.",
+      "sections": [
+        {
+          "title": "1. Controller",
+          "text": [
+            "Osama Shad, Studio OS\nNeudorfer Straße 109, 47057 Duisburg, Germany\nEmail: osamashad97@gmail.com"
+          ]
+        },
+        {
+          "title": "2. Hosting (Netlify)",
+          "text": [
+            "This website is hosted by Netlify, Inc., 101 2nd Street, San Francisco, CA 94105, USA. When you visit the website, Netlify processes technically necessary data (e.g. IP address, date and time, page visited, browser) in server log files to deliver the website and protect it against attacks.",
+            "The legal basis is Art. 6(1)(f) GDPR (legitimate interest in secure, stable operation). Transfers to the USA are based on the EU-US Data Privacy Framework or standard contractual clauses. A data processing agreement with Netlify is in place. <CHECK: DPA WITH NETLIFY SIGNED>"
+          ]
+        },
+        {
+          "title": "3. Fonts",
+          "text": [
+            "Fonts are served locally from this server (self-hosted via next/font). No connection is made to Google Fonts servers."
+          ]
+        },
+        {
+          "title": "4. Project request form and email delivery (Resend)",
+          "text": [
+            "When you use the request form, I process your details (name, email, type of business, services needed, budget, start date, message) to answer your request. The legal basis is Art. 6(1)(b) GDPR (pre-contractual measures) or Art. 6(1)(f) GDPR.",
+            "To deliver the request to me I use Resend (Resend, Inc., USA). Transfers to the USA are based on standard contractual clauses or the EU-US Data Privacy Framework. <CHECK: DPA WITH RESEND>",
+            "Your data is deleted once it is no longer needed for this purpose and no legal retention obligations apply."
+          ]
+        },
+        {
+          "title": "5. Abuse protection (Upstash)",
+          "text": [
+            "To protect the form and the chat against spam and abuse, the number of requests from one IP address is counted for a short time. I use Upstash for this (Upstash, Inc.; database region: <REGION, e.g. Frankfurt>). Entries expire automatically after a few minutes. The legal basis is Art. 6(1)(f) GDPR."
+          ]
+        },
+        {
+          "title": "6. AI chat assistant (Google Gemini)",
+          "text": [
+            "You can use an AI assistant on this website. Your messages are sent to Google's Gemini API (Google Ireland Ltd. / Google LLC) to generate the answers. Please do not enter sensitive data in the chat.",
+            "If you explicitly agree in the chat, your name, email, type of business and project description are forwarded to me by email (via Resend, see section 4).",
+            "The legal basis is Art. 6(1)(b) or (f) GDPR, and your consent (Art. 6(1)(a) GDPR) for forwarding your details. <CHECK: On the free Gemini tier, Google may use inputs to improve its services. For live operation, check the paid tier or the current terms and update this section.>"
+          ]
+        },
+        {
+          "title": "7. Cookies and tracking",
+          "text": [
+            "This website sets no tracking or marketing cookies and uses no analytics tools. Therefore no cookie banner is needed."
+          ]
+        },
+        {
+          "title": "8. Your rights",
+          "text": [
+            "You have the right of access (Art. 15), rectification (Art. 16), erasure (Art. 17), restriction of processing (Art. 18), data portability (Art. 20) and to object (Art. 21 GDPR). You can withdraw consent at any time with effect for the future.",
+            "You can lodge a complaint with a data protection supervisory authority, e.g. the State Commissioner for Data Protection and Freedom of Information of North Rhine-Westphalia (LDI NRW)."
+          ]
+        }
+      ]
+    }
   }
 }
