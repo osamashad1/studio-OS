@@ -81,10 +81,11 @@ AI chatbots and automation. I take 1 new project per month (limited capacity).
 - 2026-11-18: All 10 phases built. Before launch: fill site.ts + legal placeholders, add API keys in Netlify,
   connect domain, set launched: true. See docs/deploy.md and docs/test-report.md.
 - 2026-11-18: Brand = Studio OS by Osama Shad (Duisburg; B.Sc. Mobility and Logistics, HSRW). Pricing = monthly
-  subscriptions ~10–20 % below market: Start 45 €, Business 75 €, Growth 449 € (net, 12-month minimum, no setup fee).
+  subscriptions ~10–20 % below market: Start 45 €, Business 75 €, Growth 449 € (net, 6-month minimum, no setup fee).
   New customers: first month free + free website check. Never claim 'x % cheaper' on the site (§ 6 UWG).
   VAT status open. Next free slot: January 2027. Go-live/SEO guide: docs/go-live-and-free-seo.md.
 - 2026-11-18: LAUNCHED (launched: true) at https://yourstudioos.netlify.app — indexable for Google. Open: VAT status in Impressum, <PRÜFEN> notes in Datenschutz, API keys in Netlify.
 - 2026-11-18: Update 2: subscriptions shown as "coming soon", start month in site.ts (subscription.startMonth = 2027-01),
   CTAs = "reserve". Portfolio previews = real demo screenshots in 3D ShowcaseCard (public/portfolio/demos/, regenerate after demo
   changes). New demo works: design (brand, social ads, UI/UX) + 2 Google Ads reports with EXAMPLE VALUES (src/content/ads-reports.ts).
+- 2026-11-18: Minimum subscription term changed to 6 months (site.ts subscription.minTermMonths). Headings no longer auto-hyphenate (only legal page titles do).

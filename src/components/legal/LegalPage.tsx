@@ -26,7 +26,7 @@ export function LegalPage({
   return (
     <Section className="flex-1">
       <article className="max-w-[70ch]">
-        <h1 className="text-2xl font-bold sm:text-3xl">{title}</h1>
+        <h1 className="text-2xl font-bold hyphens-auto sm:text-3xl">{title}</h1>
         {note && <p className="mt-6 rounded-sm border-2 border-signal bg-signal/15 p-4 text-sm">{note}</p>}
         {intro && <p className="mt-6 text-lg text-slate">{mark(intro)}</p>}
         {sections.map((s) => (

@@ -64,7 +64,7 @@ export const site = {
   subscription: {
     /** Month the subscriptions start (YYYY-MM). Before that: "coming soon", visitors can reserve. */
     startMonth: "2027-01",
-    minTermMonths: 12, // then cancellable monthly
+    minTermMonths: 6, // then cancellable monthly
     setupFee: 0,
   },
   /** Offers for first-time customers. */
